@@ -29,15 +29,6 @@ var lcg = {
     return Math.floor(this.nextFloatRange(min, max));
   },
   
-  nextString: function(length) {
-    var str = "";
-    for(var i = 0; i < length; i++) {
-      var code = this.nextIntRange(97, 123);
-      str += String.fromCharCode(code);
-    }
-    return str;
-  },
-  
   nextColor: function() {
     var c = this.nextIntRange(0, Math.pow(2, 24)).toString(16).toUpperCase();
     while(c.length < 6) {
