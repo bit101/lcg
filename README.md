@@ -16,4 +16,3 @@ https://www.youtube.com/user/codingmath
 That said, if you understand its limitations, it's perfectly usable. In fact, the Java `Random` class is based on this same algorithm with different parameters.
 
 https://docs.oracle.com/javase/7/docs/api/java/util/Random.html
-
