@@ -44,9 +44,5 @@ var lcg = {
       c = "0" + c;
     }
     return "#" + c;
-  },
-  
-  nextCoinToss: function() {
-    return this.nextBool() ? "heads" : "tails";
   }
 };
